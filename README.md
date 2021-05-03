@@ -50,3 +50,5 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 
 # 格式化所有文件（. 表示所有文件）
 npx prettier --write .
+
+test
