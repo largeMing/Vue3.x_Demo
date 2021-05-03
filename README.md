@@ -26,22 +26,27 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 4. Open the VSCode command palette
 5. Search and run "Select TypeScript version" -> "Use workspace version"
 
+#ProjectList
+
 ├── publish/  
 └── src/  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── assets/                    // 静态资源目录  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── common/                    // 通用类库目录  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── components/                // 公共组件目录  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── router/                    // 路由配置目录  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── store/                     // 状态管理目录  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── style/                     // 通用 CSS 目录  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── utils/                     // 工具函数目录  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── views/                     // 页面组件目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── assets/ // 静态资源目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── common/ // 通用类库目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── components/ // 公共组件目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── router/ // 路由配置目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── store/ // 状态管理目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── style/ // 通用 CSS 目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── utils/ // 工具函数目录  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── views/ // 页面组件目录  
 ├── App.vue  
 ├── main.ts  
 ├── shims-vue.d.ts  
-├── tests/                         // 单元测试目录  
+├── tests/ // 单元测试目录  
 ├── index.html  
-├── tsconfig.json                  // TypeScript 配置文件  
-├── vite.config.ts                 // Vite 配置文件  
+├── tsconfig.json // TypeScript 配置文件  
+├── vite.config.ts // Vite 配置文件  
 └── package.json
 
+
+# 格式化所有文件（. 表示所有文件）
+npx prettier --write .
